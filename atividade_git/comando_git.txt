@@ -1,0 +1,11 @@
+git init
+git config --global user.email "matheus.romebi@icloud.com" 
+git config --global user.name "MatheusFilitto"
+echo "atividade_git" > README.md
+echo "anotacoes" > anotacoes.txt
+git add .
+git commit -m " primeiro commit "
+git remote add origin https://github.com/MatheusFilitto/desenvolvimento-javascripyt.git
+git push -u origin main
+
+

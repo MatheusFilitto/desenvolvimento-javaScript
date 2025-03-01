@@ -1,0 +1,6 @@
+anotacoes
+JavaScript (JS) é uma linguagem de programação usada principalmente para tornar páginas da web dinâmicas e interativas.
+
+Criado em: 1995 por Brendan Eich
+Executado em: Navegadores (Chrome, Firefox, Edge, Safari) e servidores (Node.js)
+Uso principal: Desenvolvimento web (interações, animações, manipulação de dados)
