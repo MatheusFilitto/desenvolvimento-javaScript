@@ -1,0 +1,51 @@
+1-  Cd Desktop
+	Mkdir projeto_inicial
+	Cd projeto_icinial 
+	Mkdir html
+	Mkdir css
+	Mkdir js
+	Mkdir assets
+
+2- 	cd html 
+	ls
+
+3-	echo bem vindo ao projeto Inicial > index.html
+	cd ..
+	cd css
+	echo "body { font-family: Arial, sans-serif; background-color: beige; }" > style.css
+
+4-	cd ..
+	cd assets 
+	mkdir img
+	mkdir fonts
+
+5-	cd ..
+	cd css
+	mv style.css ../assets 
+
+6- 	cd ..
+	cd assets 
+	ls
+
+7-	cd ..
+	cd js
+	echo 'console.log("Script carregado!");' > script.js
+	echo 'console.log("Aplicação iniciada!");' > app.js
+
+8-	cd ..
+	cd html
+	cp index.html ../assets
+
+9-	cd ..
+	cd js
+	mv app.js main.js
+
+10-	cd ..
+	find . -type d -print | sed 's|[^/]*/|  |g'
+
+11-	cd assets 
+	rm -r index.html
+
+12-	cd ..
+	cd html 
+	open -a TextEdit index.html

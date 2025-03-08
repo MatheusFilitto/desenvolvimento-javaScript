@@ -1,0 +1,7 @@
+O sistema tem que ter um cadastro de cliente
+O sistema tem que ter cadastro de livro 
+O sistema tem que um ter banco de dados com todos os livros da biblioteca 
+O sistema tem quer marca o cliente, hora e a data de um empréstimo de livro 
+O sistema tem que marca os livros disponível para empréstimo 
+O sistema tem que indicar a prateleira que cada livro deve estar 
+O sistema tem que limitar o empréstimo de livro para um determinado cliente que ainda não fez a devolução de livros.

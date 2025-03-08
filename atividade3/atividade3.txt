@@ -1,0 +1,13 @@
+RF o sistema deve permitir novos cadastro de clientes
+RF o sistema deve enviar uma email para recuperação de senha 
+RF o sistema deve permitir que um cliente ja cadastrado possa entrar com seu login e sua senha 
+RF o sistema deve permitir que um cliente possa alterar seu login
+RF o sistema deve permitir que o cliente possa sair do site com segurança 
+——————————————————————————————————————————————————
+RNF o sistema deixa as senhas do cliente criptografada 
+RNF o sistema tem que ser Responsivo 
+RNF o sistema nao deixa o usuária errar a senha mais de 4 vezes
+——————————————————————————————————————————————————
+RN a senha deve ter mais de 8 caracteres 
+RN nao pode ser cadastrada o mesmo Emil 2 vezes 
+RN após fechar a pagina sua seção é expirada automaticamente
