@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de condicionais</title>
+</head>
+<body>
+    
+    <h1>exemplo de condicionais</h1>
+    <script>
+        
+        var idade = 18;
+
+        if (idade < 18){
+            console.log("voce é menor de idade");
+        }
+        else{
+            console.log("voce é maior de idade");
+        }
+       // console.log(idade < 18 ? "menor de idade" : "maior de idade");
+
+       if (idade < 18){
+        console.log("menor de idade")
+       } else if (idade === 18){
+        console.log("voce tem 18 anos")
+       }
+       else{
+        console.log("maior de idade")
+       }
+
+
+       var nota = 7;
+       var falta = 3;
+
+       if(nota >= 7 && falta <= 4){
+        console.log("aluno aprovado");
+       }
+       else{
+        console.log("aluno reprovado");
+       }
+
+       if(nota < 7 || falta > 4){
+        console.log("aluno reprovado");
+       }
+       else{
+        console.log("aluno aprovado");
+       }
+
+       var nome = "";
+       if (nome){
+        console.log(nome);
+       } else {
+        console.log("nome nao informado");
+       }
+
+       var nome = "";
+       var menssagem = "";
+       if (nome){
+        menssagem = nome;
+       } else {
+        menssagem = "nome nao informado";
+       }
+       console.log(menssagem);
+
+       menssagem = nome ? nome : "nome nao informado";
+       console.log(menssagem);
+
+       var nome = "";
+       var idade = 18;
+
+       if(nome){
+        if (idade >= 18){
+            console.log(nome, idade);
+        } else {
+            console.log(nome);
+        }
+       } else {
+        console.log("nome nao informado")
+       }
+
+       var categoria = "2";
+
+       switch(categoria){
+        case "1":
+            console.log("R$ 11,22");
+        break
+
+        case "2":
+            console.log("R$ 15,00");
+        break
+
+        case "3": 
+            console.log("R$ 20,00");
+        break
+
+        default:
+            console.log("categoria nao informada");
+       }
+       
+
+
+
+       
+        
+
+
+
+    </script>
+    
+</body>
+</html>
