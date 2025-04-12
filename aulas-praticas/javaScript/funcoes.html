@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>funcoes </h1>
+    <script>
+        function saudacao(){
+            console.log("Olá Mundo");
+        }
+        saudacao();
+
+        function saudacoesComArgumento(nome){
+            console.log("ola mundo! eu sou " + nome);
+        }
+
+        saudacoesComArgumento("matheus");
+        saudacoesComArgumento("juca");
+
+        function saudacaoComArgOpcional(nome, saudacao = "ola"){
+            console.log(saudacao + " , " + nome);
+
+        }
+
+        saudacaoComArgOpcional("lucas;");
+        saudacaoComArgOpcional("maria", "oi");
+
+        function somar(numero1, numero2){
+            console.log(numero1 + numero2);
+        }
+
+        somar(5,2);
+        somar(3,5);
+
+        function somarRetorno(numero1, numero2){
+            return (numero1 + numero2);
+        }
+
+        var soma = somarRetorno(5,2);
+        console.log(soma);
+
+        function media(n1, n2, n3){
+            return ((n1 + n2 + n3) / 3);
+        }
+
+        console.log(media(10,10,10));
+
+        var m = media(10,10,10);
+        if (m >= 7){
+            console.log("passou")
+        }else{
+            console.log("reprovou")
+        }
+    </script>
+</body>
+</html>
