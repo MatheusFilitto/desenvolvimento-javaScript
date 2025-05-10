@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Exemplos Bibliotecass</h1>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+
+        // inicio da biblioteca Math
+        var numero = 10.5;
+        console.log("Arredondamento para baixo", Math.floor(numero));
+        console.log("Arredondamento para cima", Math.ceil(numero));
+        console.log("Arredondamento para mais proximo", Math.round(numero));
+        
+        var array = [10, 20, 30, 40, 50];
+        console.log("Maior valor do array", Math.max(...array));
+        console.log("Menor valor do array", Math.min(...array));
+
+        console.log("Raiz sem biblioteca", 16**0.5);
+        console.log("Raiz com Biblioteca", Math.sqrt(16));
+
+        console.log("Potencia sem Biblioteca", 2 ** 3);
+        console.log("Potencia com Biblioteca", Math.pow(2,3));
+
+        console.log("Valor de PI", Math.PI);
+        console.log("Valor de PI", Math.PI.toFixed(2));
+        
+        // fim da bibliotca Math
+
+
+        // Inicio biblioteca Date
+
+        var data = new Date();
+
+        console.log("Data atual", data);
+        console.log("Dia", data.getDate());
+        console.log("Mês", data.getMonth()+1);
+        console.log("Ano", data.getFullYear());
+        console.log("Hora", data.getHours());
+        console.log("Minutos", data.getMinutes());
+        console.log("Segundos", data.getSeconds());
+        console.log("Da da semana", data.getDay());
+        
+        // Fim da biblioteca Date
+
+
+        // Inicio biblioteca Jquery
+
+        $("h1").css("color", "red");
+
+        $("h1").css({
+            "color": "blue",
+            "font-family": "Arial",
+            "font-size": "60px",
+            "text-align": "center" 
+        })
+
+    </script>
+    
+
+</body>
+</html>

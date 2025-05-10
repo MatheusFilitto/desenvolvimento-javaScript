@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Atividades Funções</h1>
+    <!-- funcao para vereficar se o numero é par ou impar-->
+    <script>
+        var numero = prompt("Digite um numero")
+        function vereficar(numero){
+            if (numero % 2 == 0){
+                return "Numero Par"
+            } else{
+                return "Numero Impar"
+            }
+        }
+        var resultado = vereficar(numero)
+        console.log(resultado)
+
+        // gerar uma tabuada, lista array [10,5,3,8,2]
+
+        var array = [10, 5,]
+        function tabuada(array){
+      //      for( j = 0; j < array.length; j++){
+         //       console.log(`Tabuada do ${array[j]}:`);
+        //        for( i = 0; i <= 10; i++){
+           //         console.log(`${array[j]} x ${i} = ${array[j] * i}`)
+       //         }  
+       //     }
+
+
+       array.forEach((tab) => {
+            console.log("tabuada do: ", tab)
+            for(i = 0; i <= 10; i++)
+            console.log(tab + " x " + i + " = " + tab * i )
+        });
+
+        }
+
+  
+        
+        tabuada(array)
+
+        var peso = prompt("digite seu peso")
+        var altura = prompt("digite sua altura")
+
+
+        function IMC(peso, altura){
+            var calculo = peso / (altura * altura)
+            if(calculo <= 18.5){
+                return "Abaixo do peso"
+            }
+            else if(calculo > 18.5 && calculo < 24.9){
+                return "peso normal"
+            }
+            else if(calculo > 24.9 && calculo < 29.9){
+                return "Sobrepeso"
+            }
+            else if(calculo > 29.9){
+                return "Obesidade"
+            }
+
+        }
+
+        var result = IMC(peso, altura)
+        console.log(result)
+
+
+        var ano = prompt("digite um ano");
+
+        function Bissexto(ano){
+            if(ano % 4 == 0 && !(ano % 100 == 0) || (ano % 400 == 0)){
+                return "ano é Bissexto"
+            } else {
+                return "o ano não é bissexto"
+            }
+
+        }
+
+        var res = Bissexto(ano)
+        console.log(res)
+
+    </script>
+</body>
+</html>
+
+
